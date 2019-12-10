@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFBE5"
+        tools:context=".Creditos"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Créditos"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="115dp"
+            app:srcCompat="@drawable/logo1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Universidad Tecnológica del Norte de Guanajuato"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desarrollo de Software Multiplataforma"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GDS0143"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Miriam Guadalupe Ramírez Gloria"
+            android:background="#D5C309"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. Control: 1218100534"
+            android:background="#D5C309"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carlos Antonio Suárez Olvera"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. Control: 1218100431"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profesor:"
+            android:background="#542A8C"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="José de Jesús Eduardo Barrientos Ávalos"
+            android:background="#542A8C"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:textSize="8pt"
+            android:id="@+id/btnRegresar"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

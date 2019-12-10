@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFBE5"
+        tools:context=".EstresNotas"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Cómo detectar es estres?"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="341dp"
+            android:layout_height="234dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/estres" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los síntomas de estrés pueden manifestarse tanto a nivel psicológico como físico, estos son los más frecuentes:"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El estrés es un proceso natural que responde a nuestra necesidad de adaptarnos al entorno; pero resulta perjudicial si es muy intenso o se prolonga en el tiempo. Descubre cómo hacerle frente."
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Síntomas y diagnóstico del estrés"
+            android:background="#D5C309"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="10pt"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emociones: depresión o ansiedad, irritabilidad, miedo, nerviosismo, confusión, fluctuaciones del estado de ánimo, etcétera."
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pensamientos: excesivo temor al fracaso, excesiva autocrítica, olvidos, dificultad para concentrarse y tomar decisiones, pensamientos repetitivos…
+"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conductas: risa nerviosa, trato brusco hacia los demás, incremento del consumo de tabaco, alcohol y otras drogas, aumento o disminución del apetito, llantos, rechinar los dientes o apretar las mandíbulas, etcétera.
+"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambios físicos: tensión muscular, manos frías o sudorosas, insomnio, dolores de cabeza, fatiga, problemas de espalda o cuello, indigestión, respiración agitada, perturbaciones en el sueño, sarpullidos, disfunción sexual, etcétera."
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="8pt"
+            android:gravity="left"/>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="341dp"
+            android:layout_height="234dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/cerebro" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:textSize="8pt"
+            android:id="@+id/btnRegresar"/>
+
+
+    </LinearLayout>
+</ScrollView>

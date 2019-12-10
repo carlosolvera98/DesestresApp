@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DesestresApp</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirmar Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Registro</string>
+    <string name="error_message_name">Ingresa un nombre completo</string>
+    <string name="error_message_email">Ingresa un Email válido</string>
+    <string name="error_message_age">Ingresa una edad</string>
+    <string name="error_message_password">Ingresa un Password</string>
+    <string name="success_message">Registro Exitoso!</string>
+    <string name="text_not_member">No tienes una cuenta? Crea una aquí!</string>
+    <string name="text_already_member">Ya estás registrado? Inicia sesión aquí</string>
+    <string name="error_email_exists">El Email ya existe!</string>
+    <string name="error_password_match">Los passwords no coinciden!</string>
+    <string name="error_valid_email_password">Email o Password incorrectos</string>
+    <string name="action_settings">Configuración</string>
+    <string name="text_hello">Bienvenido,</string>
+    <string name="text_title">DesestresApp</string>
+    <string name="next_player">Turno: %1$s</string>
+    <string name="winner">Ganador: %1$s</string>
+    <string name="jugar">Jugar</string>
+    <string name="reiniciar">Reiniciar</string>
+</resources>
